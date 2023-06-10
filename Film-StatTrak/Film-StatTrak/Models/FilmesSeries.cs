@@ -1,37 +1,28 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-
-namespace Film_StatTrak.Models
+﻿namespace Film_StatTrak.Models
 {
     /// <summary>
-    /// Dados dos filmes e series
+    /// Dados dos filmes e séries
     /// </summary>
     public class FilmesSeries
-    { 
+    {
             /// <summary>
-            /// PK
+            /// PK do filme/série
             /// </summary>
             public int Id { get; set; }
 
             /// <summary>
-            /// Nome do filme
+            /// Nome do filme/série
             /// </summary>
-            public string Nome { get; set; }
+            public string? Nome { get; set; }
 
             /// <summary>
-            /// Imagem do filme
+            /// Imagem do filme/série
             /// </summary>
-            public string Imagem { get; set; }
+            public string? Imagem { get; set; }
 
             /// <summary>
-            /// Data do filme
+            /// Data do filme/série
             /// </summary>
             public DateTime DataFilm { get; set; }
-
-            /// <summary>
-            /// Duração do filme em minutos
-            /// </summary>
-            public int Duração { get; set; }
-    
-
-}
+        }
 }

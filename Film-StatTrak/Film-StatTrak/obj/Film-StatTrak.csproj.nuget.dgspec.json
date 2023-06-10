@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programs\\GitProjects\\Film-StatTrak\\Film-StatTrak\\Film-StatTrak\\Film-StatTrak.csproj": {}
+    "C:\\Users\\Tiago Carvalho\\OneDrive - Instituto Politécnico de Tomar\\Escola\\Desenv. Web\\FSTrack\\Film-StatTrak\\Film-StatTrak\\Film-StatTrak.csproj": {}
   },
   "projects": {
-    "D:\\Programs\\GitProjects\\Film-StatTrak\\Film-StatTrak\\Film-StatTrak\\Film-StatTrak.csproj": {
+    "C:\\Users\\Tiago Carvalho\\OneDrive - Instituto Politécnico de Tomar\\Escola\\Desenv. Web\\FSTrack\\Film-StatTrak\\Film-StatTrak\\Film-StatTrak.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programs\\GitProjects\\Film-StatTrak\\Film-StatTrak\\Film-StatTrak\\Film-StatTrak.csproj",
+        "projectUniqueName": "C:\\Users\\Tiago Carvalho\\OneDrive - Instituto Politécnico de Tomar\\Escola\\Desenv. Web\\FSTrack\\Film-StatTrak\\Film-StatTrak\\Film-StatTrak.csproj",
         "projectName": "Film-StatTrak",
-        "projectPath": "D:\\Programs\\GitProjects\\Film-StatTrak\\Film-StatTrak\\Film-StatTrak\\Film-StatTrak.csproj",
-        "packagesPath": "C:\\Users\\UMHC\\.nuget\\packages\\",
-        "outputPath": "D:\\Programs\\GitProjects\\Film-StatTrak\\Film-StatTrak\\Film-StatTrak\\obj\\",
+        "projectPath": "C:\\Users\\Tiago Carvalho\\OneDrive - Instituto Politécnico de Tomar\\Escola\\Desenv. Web\\FSTrack\\Film-StatTrak\\Film-StatTrak\\Film-StatTrak.csproj",
+        "packagesPath": "C:\\Users\\Tiago Carvalho\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tiago Carvalho\\OneDrive - Instituto Politécnico de Tomar\\Escola\\Desenv. Web\\FSTrack\\Film-StatTrak\\Film-StatTrak\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\UMHC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tiago Carvalho\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,28 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
